@@ -22,6 +22,10 @@ public class Product implements Serializable {
 	private String description;
 	private String imageUri;
 	
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Product(Long id, String name, String description, String imageURI) {
 		super();
 		this.id = id;
